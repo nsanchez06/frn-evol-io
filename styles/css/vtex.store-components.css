@@ -17,5 +17,11 @@
     background-color: #b8b8b88a;
 }
 
+.infoCardTextContainer--info-card-second-line {
+    width: 50%;
+    background-color: unset;
+}
+
+
 
 
