@@ -1,15 +1,46 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "info-card#button-left",
+      "rich-text",
+      "info-card#button-rigth"
     ]
   },
+
+  "info-card#button-left": {
+    "props": {
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://frncomunicacao.com.br/wp-content/themes/frn3/img/time/nathan-prestes.jpg",
+    "headline": "EQUIPE EVOL <3",
+    "subhead": "Bora estudar galere",
+    "callToActionMode": "link",
+    "callToActionText": "Saiba mais!",
+    "textAlignment": "center"
+    }
+  },
+
   "rich-text": { 
     "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "left",
+      "text": "Equipe Evol VTEX IO <3",
+      "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
     }
+  },
+
+  "info-card#button-rigth": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
   }
+
 }
