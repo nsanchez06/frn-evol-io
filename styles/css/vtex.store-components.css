@@ -26,6 +26,31 @@
     background-color: black !important;
 }
 
+.productImageTag {
+    max-width: 450px !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.productBrand {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.priceContainer {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+
+ 
+
 
 
 
