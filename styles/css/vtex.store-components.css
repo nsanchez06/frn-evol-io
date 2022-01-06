@@ -47,6 +47,16 @@
     margin-bottom: 25px;
 }
 
+.container :global(.vtex-button){
+    background-color: #39e77b;
+    width: 255px;
+    height: 50px;
+    border: none;
+}
+
+
+
+
 
 
  
